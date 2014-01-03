@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">TimePicker</string>
+    <!-- 时间选择器日期 -->
+    <string-array name="time_picker_date">
+        <item>今天</item>
+        <item>明天</item>
+        <item>后天</item>
+    </string-array>
+
+</resources>

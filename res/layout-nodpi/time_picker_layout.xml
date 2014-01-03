@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res/com.example.timepicker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+    <com.example.wheel.WheelView
+        android:id="@+id/wheel_view_date"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/wheel_view_hour"
+        android:paddingLeft="60px"
+        wheel:lineSplitHeight="@dimen/wheel_line_split_height"
+        wheel:splitLineColor="@color/split_line_gray"
+        wheel:textColorFirst="@color/light_s_gray"
+        wheel:textColorSecond="@color/light_gray"
+        wheel:textColorThird="@color/deep_ss_gray"
+        wheel:textSize="@dimen/font_size_s_large" />
+
+    <com.example.wheel.WheelView
+        android:id="@+id/wheel_view_hour"
+        android:layout_width="312px"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        wheel:lineSplitHeight="@dimen/wheel_line_split_height"
+        wheel:splitLineColor="@color/split_line_gray"
+        wheel:textColorFirst="@color/light_s_gray"
+        wheel:textColorSecond="@color/light_gray"
+        wheel:textColorThird="@color/deep_ss_gray"
+        wheel:textSize="@dimen/font_size_s_large" />
+
+    <com.example.wheel.WheelView
+        android:id="@+id/wheel_view_minute"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/wheel_view_hour"
+        android:paddingRight="60px"
+        wheel:lineSplitHeight="@dimen/wheel_line_split_height"
+        wheel:splitLineColor="@color/split_line_gray"
+        wheel:textColorFirst="@color/light_s_gray"
+        wheel:textColorSecond="@color/light_gray"
+        wheel:textColorThird="@color/deep_ss_gray"
+        wheel:textSize="@dimen/font_size_s_large" />
+
+</RelativeLayout>

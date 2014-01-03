@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体大小 -->
+
+    <dimen name="font_size_xx_small">32px</dimen>
+    <dimen name="font_size_x_small">40px</dimen>
+    <dimen name="font_size_small_30">30px</dimen>
+    <dimen name="font_size_small_40">40px</dimen>
+    <dimen name="font_size_small_44">44px</dimen>
+    <dimen name="font_size_small">45px</dimen>
+    <dimen name="font_size_small1">48px</dimen>
+    <dimen name="font_size_medium_50">50px</dimen>
+    <dimen name="font_size_medium">54px</dimen>
+    <dimen name="font_size_s_large">60px</dimen>
+    <dimen name="font_size_large">63px</dimen>
+    <dimen name="font_size_x_large">72px</dimen>
+    <dimen name="font_size_x_large1">84px</dimen>
+    <dimen name="font_size_xx_large">90px</dimen>
+    <dimen name="font_size_xxx_large">100px</dimen>
+    <dimen name="font_size_xxxx_large">124px</dimen>
+    <dimen name="font_size_xxxxx_large">144px</dimen>
+
+    <!-- 时间选择器：滚轮行高 -->
+    <dimen name="wheel_line_split_height">45px</dimen>
+
+</resources>
